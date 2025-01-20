@@ -105,7 +105,9 @@ const KhabiTeqPage = () => {
         <div className="text-center mb-4">
           <div className="d-flex justify-content-between align-items-center nav-space">
             <img src="/src/assets/logo1.png" alt="Khabi-Teq Logo" className="mb-3" />
-            <button className="btn px-4 py-3 nav-button" style={{backgroundColor: '#8DDB90', color: '#fff', borderRadius: 0}}>Join the Waitlist</button>
+            <a href="https://forms.gle/rgmS5cSyB9FKFEvS8" target="_blank" rel="noopener noreferrer">
+              <button className="btn px-4 py-3 nav-button" style={{ backgroundColor: '#8DDB90', color: '#fff', borderRadius: 0 }}>Join the Waitlist</button>
+            </a>
           </div>
           <div className="mt-5"  data-aos="fade-down" >
             <h1 className="display-4 fw-bold text-wrap" style={{fontSize: '40px', fontWeight: '600'}}>Be Among the First to Join
@@ -130,7 +132,9 @@ const KhabiTeqPage = () => {
                     </p>
                   </div>
                   <div className="col-lg-4" data-aos="fade-left">
-                    <button className="btn py-3 px-5 responsive-width mobile-button" style={{backgroundColor: '#8DDB90', color: '#fff', borderRadius: 0}}>Join the Waitlist</button>
+                    <a href="https://forms.gle/rgmS5cSyB9FKFEvS8" target="_blank" rel="noopener noreferrer">
+                      <button className="btn py-3 px-5 responsive-width mobile-button" style={{ backgroundColor: '#8DDB90', color: '#fff', borderRadius: 0 }}>Join the Waitlist</button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -155,7 +159,6 @@ const KhabiTeqPage = () => {
             <i className="bi bi-twitter"></i>
           </a>
         </div>
-        {/* <p className="mt-5 mb-0">© 2025 Khabi-Teq Realty. All rights reserved.</p> */}
       </footer>
     </div>
   );
