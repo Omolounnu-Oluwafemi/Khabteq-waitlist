@@ -100,11 +100,11 @@ const KhabiTeqPage = () => {
   }, []);
 
   return (
-    <div className="container-fluid d-flex flex-column min-vh-100 bg-light text-dark py-5 mb-0 bg-custom" style={{backgroundImage: "url('/src/assets/backgroundImage.png')", backgroundRepeat: "no-repeat", backgroundColor: '#E0FDFD'}}>
+    <div className="container-fluid d-flex flex-column min-vh-100 bg-light text-dark py-5 mb-0 bg-custom" style={{backgroundImage: "url('/assets/backgroundImage.png')", backgroundRepeat: "no-repeat", backgroundColor: '#E0FDFD'}}>
       <div className="flex-grow-1">
         <div className="text-center mb-4">
           <div className="d-flex justify-content-between align-items-center nav-space">
-            <img src="src/assets/logo1.png" alt="Khabi-Teq Logo" className="mb-3" />
+            <img src="/assets/logo1.png" alt="Khabi-Teq Logo" className="mb-3" />
             <a href="https://forms.gle/rgmS5cSyB9FKFEvS8" target="_blank" rel="noopener noreferrer">
               <button className="btn px-4 py-3 nav-button" style={{ backgroundColor: '#8DDB90', color: '#fff', borderRadius: 0 }}>Join the Waitlist</button>
             </a>
