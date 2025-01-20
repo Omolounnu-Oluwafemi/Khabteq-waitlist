@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .responsive-width {
+    width: 100% !important;
+  }
+
+  .mobile-button {
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+  }
+}
