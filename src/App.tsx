@@ -20,7 +20,7 @@ const KhabiTeqPage = () => {
               <button className="btn px-4 py-3 nav-button" style={{ backgroundColor: '#8DDB90', color: '#fff', borderRadius: 0 }}>Join the Waitlist</button>
             </a>
           </div>
-          <div className="mt-5"  data-aos="fade-down" >
+          <div className="mt-5"  data-aos="fade-up" >
             <h1 className="display-4 fw-bold text-wrap" style={{fontSize: '40px', fontWeight: '600'}}>Be Among the First to Join
               <span style={{color: '#8DDB90'}}> Khabi-Teq Realty</span>
             </h1>
